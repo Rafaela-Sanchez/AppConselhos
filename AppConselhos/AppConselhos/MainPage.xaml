@@ -32,6 +32,12 @@
             </StackLayout>
          </Frame>
 
+        <Entry x:Name="Num_Cons" 
+               HorizontalTextAlignment="Center" 
+               Placeholder="00"
+               Margin="80,40,80,0"
+               Keyboard="Numeric"/>
+
         <Button x:Name="Botao_Conselho"
                 Text="Novo Conselho" 
                 HorizontalOptions="Center"
